@@ -1,8 +1,7 @@
 # voipwardialer
 A Voip Wardialer for the phreaking of 2020
 
-TODO:HERE Install techhowto
-
+To try VoIP Wardialer at this stage of development check it out [INSTALL.md](https://github.com/x25today/voipwardialer/blob/master/INSTALL.md)
 
 # Project Goals
 This project aims to provide a modern voip wardialing free software.
