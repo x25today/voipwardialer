@@ -85,11 +85,11 @@ Below several software modem resources
 ## Supported Carriers
 We plan to support only basic low bitrate carriers such as
 
- V21        - 300/300 baud 
- V23        - 1200/75 baud 
- Bell103    - 300/300 baud 
- V22        - 1200/1200 baud 
- V22bis     - 2400/2400 baud
+* V21        - 300/300 baud 
+* V23        - 1200/75 baud 
+* Bell103    - 300/300 baud 
+* V22        - 1200/1200 baud 
+* V22bis     - 2400/2400 baud
 
 # Example Modem to call around the world for testing
 TODO: List 10-15 modem to call that works across various countries to make experiments
