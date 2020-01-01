@@ -1,7 +1,10 @@
 # voipwardialer
 A Voip Wardialer for the phreaking of 2020
 
-## Intro
+TODO:HERE Install techhowto
+
+
+# Project Goals
 This project aims to provide a modern voip wardialing free software.
 
 It's meant for seasoned and young hackers willing to play with the old good telephony system from the comfort of their notebook.
@@ -31,20 +34,6 @@ To connect the audio flow coming from the called phone number to the Modem DSP r
 4. Asterisk-Softmodem provide the I/O of the remote system termina connecting via TCP a VoIP Wardialer listener
 
 It's a neat workflow of data going around that may require a schema.
-
-# Try it out
-This first release MVP is meant to be ready for experiment and contributions, it's not yet fully working!
-
-To use VoIP Wardialer you need at least:
-* A Linux Debian machine
-* A SIP account at VoIP Provider or your own SIP Server
-* A phone number to call where modem answer
-
-To install it we first need to build the PJSUA VoIP stack, that will then be used as telephony engine:
-TODO: Describe how to install PJSUA
-
-
-TODO: How to we deliver Asterisk? By a docker image or by apt-get install asterisk + copy configuration files in /etc/asterisk?
 
 # Roadmap
 
@@ -85,12 +74,6 @@ Below several software modem resources
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
 
 A nice writeup by Asterisk-Softmodem fork author  (Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
-
-
-## Tech specs
-* Python 3 code
-* PJSUA library for SIP/VoIP dialing and Conference Bridging
-* Remote Modem DSP Server (An Asterisk [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem))
 
 ## Supported Carriers
 We plan to support only basic low bitrate carriers such as
