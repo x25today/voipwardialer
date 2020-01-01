@@ -54,6 +54,8 @@ The software is not yet fully working and does requrire further work to achieve 
   * Make DSP Modem (hooked to Asterisk) working properly and consistenly (this is the most important hit of the project!)
   * Try Asterisk BTX Modem in place of Asterisk-Modem?
   * Integrate a C native code software modem (Linmodem? Fisher-Modem?)
+
+* Develop TCP Listener built-in in VoIP Wardiaer (to receive terminal I/O of remote system from Modem Server)
   
 * Scanning functionalities 
   * Range generation
