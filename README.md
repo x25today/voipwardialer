@@ -3,6 +3,8 @@ A Voip Wardialer for the phreaking of 2020
 
 To try VoIP Wardialer at this stage of development check it out [INSTALL.md](https://github.com/x25today/voipwardialer/blob/master/INSTALL.md)
 
+LIMITATIONS: It needs tuning and fixing on the channel quality for proper DSP Modem operations (probably echo cancellation and noise suppression)
+
 # Project Goals
 This project aims to provide a modern voip wardialing free software.
 
