@@ -1,7 +1,7 @@
 # voipwardialer
 A Voip Wardialer for the phreaking of 2020
 
-# Intro
+## Intro
 This project aims to provide a modern voip wardialing free software.
 
 It's meant for seasoned and young hackers willing to play with the old good telephony system from the comfort of their notebook.
@@ -46,30 +46,30 @@ TODO: Describe how to install PJSUA
 
 TODO: How to we deliver Asterisk? By a docker image or by apt-get install asterisk + copy configuration files in /etc/asterisk?
 
-Tech specs are:
-* Python 3 code
-* PJSUA library for SIP/VoIP dialing and Conference Bridging
-* Remote Modem DSP Server (An Asterisk [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem))
-
-
 # Roadmap
+
+The software is not yet fully working and does requrire further work to achieve it's goal. 
+
 * Experiment to make DSP properly working
   * Make DSP Modem (hooked to Asterisk) working properly and consistenly (this is the most important hit of the project!)
+  * Try Asterisk BTX Modem in place of Asterisk-Modem?
   * Integrate a C native code software modem (Linmodem? Fisher-Modem?)
-  * Try Asterisk BTX Modem?
-* Modem Detection trough Audio Sample Frequency Analysis (like [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb)
-* Modem Server Configuration Generation
-* Remote Modem Server (to run it on another machine)
+  
 * Scanning functionalities 
   * Range generation
   * Session resumption
   * Logging of carrier and output of those carriers
+  * Modem Detection trough Audio Sample Frequency Analysis (like [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb)
 * Multi channel parallel dialing
-* Provide interactive terminal emulation connector (ptsy/tty for use with Minicom or other terminal emulation sw/lib)
 
+* Modem Server Improvement
+  * Modem Server Configuration Generation
+  * Remote Modem Server (to run it on another machine)
+
+* Provide interactive terminal emulation connector (ptsy/tty for use with Minicom)
 
 # Resources
-Making a project like this implies a lot of complexity
+Technical resources useful for the project research 
 
 ## Software Modem
 Most of the complexity in this project is overcoming the problem of having any to integrate and use software modem DSP
@@ -81,6 +81,14 @@ Below several software modem resources
 * [Fisher Modem](https://github.com/randyrossi/fisher-modem) a potentially very cool software modem (that nobody used)
 * [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
+
+A nice writeup by Asterisk-Softmodem fork author  (Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
+
+
+## Tech specs
+* Python 3 code
+* PJSUA library for SIP/VoIP dialing and Conference Bridging
+* Remote Modem DSP Server (An Asterisk [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem))
 
 ## Supported Carriers
 We plan to support only basic low bitrate carriers such as
