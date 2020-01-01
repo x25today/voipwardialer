@@ -61,7 +61,7 @@ The software is not yet fully working and does requrire further work to achieve 
   * Range generation
   * Session resumption
   * Logging of carrier and output of those carriers
-  * Modem Detection trough Audio Sample Frequency Analysis (like [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb)
+  * Modem Detection trough Audio Sample Frequency Analysis (Use ready made [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb))
 * Multi channel parallel dialing
 
 * Modem Server Improvement
