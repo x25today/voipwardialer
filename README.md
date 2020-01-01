@@ -33,7 +33,7 @@ To connect the audio flow coming from the called phone number to the Modem DSP r
 It's a neat workflow of data going around that may require a schema.
 
 # Try it out
-The MVP is meant to be ready for experiment and contribute in the making of VoIP Wardialer software
+This first release MVP is meant to be ready for experiment and contributions, it's not yet fully working!
 
 To use VoIP Wardialer you need at least:
 * A Linux Debian machine
