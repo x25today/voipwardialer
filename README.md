@@ -5,6 +5,18 @@ To try VoIP Wardialer at this stage of development check it out [INSTALL.md](htt
 
 LIMITATIONS: It needs tuning and fixing on the channel quality for proper DSP Modem operations (probably echo cancellation and noise suppression) as modem carriers does not always CONNECT
 
+It's actually usable as a command line tool:
+
+```bash
+
+$ python dialer.py call
+  Usage: dialer.py call [OPTIONS] SIP_URI SIP_REG_URI SIP_USERNAME SIP_PASSWORD
+                        PHONE_NUMBER MODEM_VERSION MODEM_PARITY
+
+
+$ python3 dialer.py call sip:username@sip.example.com sip:sip.example.com username password +1555123456 V22 8n1
+```
+
 # Project Goals
 This project aims to provide a modern voip wardialing free software.
 
