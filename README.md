@@ -51,11 +51,11 @@ TODO: How to we deliver Asterisk? By a docker image or by apt-get install asteri
 The software is not yet fully working and does requrire further work to achieve it's goal. 
 
 * Experiment to make DSP properly working
-  * Make DSP Modem (hooked to Asterisk) working properly and consistenly (this is the most important hit of the project!)
-  * Try Asterisk BTX Modem in place of Asterisk-Modem?
-  * Integrate a C native code software modem (Linmodem? Fisher-Modem?)
+  * Make DSP Modem (Asterisk-Softmodem hooked to Asterisk) working properly and consistenly
+  * Evaluate other Asterisk BTX Modem in place of Asterisk-Modem
+  * Integrate a C native code software modem trough ctypes (Linmodem? Fisher-Modem?)
 
-* Develop TCP Listener built-in in VoIP Wardiaer (to receive terminal I/O of remote system from Modem Server)
+* Develop TCP Listener built-in in VoIP Wardiaer (to receive terminal I/O of remote system from Asterisk-SoftModem running in Modem Server)
   
 * Scanning functionalities 
   * Range generation
