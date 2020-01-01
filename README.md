@@ -101,5 +101,10 @@ We plan to support only basic low bitrate carriers such as
 * V22        - 1200/1200 baud 
 * V22bis     - 2400/2400 baud
 
+We do support those parity configurations:
+* 8N1
+* 7E1
+
+
 # Example Modem to call around the world for testing
 TODO: List 10-15 modem to call that works across various countries to make experiments
