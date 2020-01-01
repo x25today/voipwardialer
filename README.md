@@ -72,12 +72,24 @@ Tech specs are:
 Making a project like this implies a lot of complexity
 
 ## Software Modem
-Most of them with some specific limit or integration complexity
-* [Asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem)
-* [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem) fork with parity bit improvements
-* [Asterisk Btx Modem](https://github.com/Casandro/btx_modem)
-* [Fisher Modem](https://github.com/randyrossi/fisher-modem)
-* [Linux Softmodem](https://bellard.org/linmodem/)
+Most of the complexity in this project is overcoming the problem of having any to integrate and use software modem DSP
+
+Below several software modem resources
+* [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem) fork that we use, with parity bit improvements
+* [Asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem) Original Asterisk Softmodem
+* [Asterisk Btx Modem](https://github.com/Casandro/btx_modem) Another Asterisk softmodem with v.23 carrier
+* [Fisher Modem](https://github.com/randyrossi/fisher-modem) a potentially very cool software modem (that nobody used)
+* [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
+* [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
+
+## Supported Carriers
+We plan to support only basic low bitrate carriers such as
+
+ V21        - 300/300 baud 
+ V23        - 1200/75 baud 
+ Bell103    - 300/300 baud 
+ V22        - 1200/1200 baud 
+ V22bis     - 2400/2400 baud
 
 # Example Modem to call around the world for testing
 TODO: List 10-15 modem to call that works across various countries to make experiments
