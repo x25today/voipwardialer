@@ -72,7 +72,7 @@ Below several software modem resources
 * [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
 
-A nice writeup by Asterisk-Softmodem fork author  (Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
+A nice writeup by Asterisk-Softmodem fork author  [Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
 
 ## Supported Carriers
 We plan to support only basic low bitrate carriers such as
