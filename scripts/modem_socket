@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true; do
+  echo 'Opening socket'
+  nc -l 8290
+  echo 'Socket closed'
+done

@@ -1,0 +1,19 @@
+venv/
+*.pyc
+__pycache__
+.idea/
+temp/
+venv/
+local-settings.conf
+prova*
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
