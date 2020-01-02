@@ -119,6 +119,7 @@ We do support those parity configurations:
 # Example Modem to call around the world for testing
 Below a list of modem for testing the DSP connections
 
+* IT Dialup Number of Infinito +39771751751
 * UK O2 CSD Data Number (PPP) +447712927927
 * NL KPN (TUN\TAP) +31653141414
 * DE Blup BBS +4920938143 https://www.blup-bbs.de/mailbox
