@@ -25,7 +25,7 @@ It's meant for seasoned and young hackers willing to play with the old good tele
 
 It try to overcome the telecommunication related carrier over compressed audio codec used in VoIP, by trying to negotiate carriers with speed of 300bit/s 600bit/s 1200/bit. 
 
-The software is meant also to be as simple and easy software voip dialer with modem deteciton, modem modulation/demodulation that finally let you interact with the remote system trough terminal emulation.
+The software is meant also to be as simple and easy software voip dialer with modem detection, modem modulation/demodulation that finally let you interact with the remote system trough terminal emulation.
 
 Most of the project that went working on something like this gave up due to the many complexity across telecommunication and not ready software modem stack that can be easily used and integrated.
 
@@ -75,7 +75,7 @@ The software is not yet fully working and does require further work to achieve i
 
 * Provide interactive terminal emulation connector (ptsy/tty for use with Minicom)
 
-* Provide a  working AT hayes modem emulator to be able to be used as a VoIP software modem by existing wardialing software
+* Provide a working AT hayes modem emulator to be able to be used as a VoIP software modem by existing wardialing software
 
 # Resources
 Technical resources useful for the project research 
