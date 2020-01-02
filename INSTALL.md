@@ -20,6 +20,7 @@
 *Build:*
 
 - Create a Python 3.6 Virtual Environment (virtualenv -p python3.6 venv)
+- Activate the virtual environment and install requirements.txt (pip install -r requirements.txt)
 - Download and install Asterisk 13.28 sources
 - Follow build instructions for the asterisk-Softmodem DSP (put app_softmodem.c in the Asterisk apps/ dir and do make apps). 
   More details in the asterisk-Softmodem README.
