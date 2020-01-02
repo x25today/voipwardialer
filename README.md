@@ -121,5 +121,7 @@ Below a list of modem for testing the DSP connections
 
 * UK O2 CSD Data Number (PPP) +44-771-2927927
 * NL KPN (TUN\TAP) +31-653-141414
+* DE Blup BBS +49 209 38143 https://www.blup-bbs.de/mailbox
+* BE TAP SMSC for Proximus +32 475161621 (8N1) . (It could be used to send SMS with Linux's [smsclient](http://howto.gumph.org/content/send-sms-messages-from-linux/))
 
 TODO: List 10-15 modem to call that works across various countries to make experiments
