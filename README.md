@@ -107,5 +107,6 @@ We do support those parity configurations:
 Below a list of modem for testing the DSP connections
 
 * UK O2 CSD Data Number (PPP) +44-771-2927927
+* NL KPN (TUN\TAP) +31-653-141414
 
 TODO: List 10-15 modem to call that works across various countries to make experiments
