@@ -125,4 +125,5 @@ Below a list of modem for testing the DSP connections
 * BE TAP SMSC for Proximus +32475161621 (8N1) . (It could be used to send SMS with Linux's [smsclient](http://howto.gumph.org/content/send-sms-messages-from-linux/))
 * US ATT Nationwide Pager +18007247784 (2400/7E1) from [TAP Dialup Numbers](http://www.pager-enterprise.com/TAP_dialup_numbers.pdf) 
 * NZ New Zealand Telecom Paging +64264001283 (7E1) from  [TAP Numbers](https://www.seqent.com/wp-content/uploads/2014/12/TAP_numbers-1.pdf)
+* BBS with Dialup, mostly in US (up to date) https://www.telnetbbsguide.com/bbs/connection/dial-up/list/detail/
 
