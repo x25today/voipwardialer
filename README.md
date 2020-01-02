@@ -51,7 +51,7 @@ It's a neat workflow of data going around that may require a schema.
 
 # Roadmap
 
-The software is not yet fully working and does requrire further work to achieve it's goal. 
+The software is not yet fully working and does require further work to achieve it's goal. 
 
 * Experiment to make DSP properly working
   * Make DSP Modem (Asterisk-Softmodem hooked to Asterisk) working properly and consistenly
