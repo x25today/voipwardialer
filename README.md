@@ -106,6 +106,7 @@ We do support those parity configurations:
 * [iWar](https://github.com/beave/iwar) Linux Terminal Analog Modem Wardialer 
 * [ToneLoc](https://github.com/steeve/ToneLoc) MS-DOS Analog Modem Wardialer 
 * [WarVox](https://github.com/rapid7/warvox) Linux IAX VoIP Wardialer with Frequency Detection but not Modem DSP (no Terminal)
+* [Raptor's ward.c](https://0xdeadbeef.info/code/ward.c] Simple single file analog wardialer for Unix
 
 # Example Modem to call around the world for testing
 Below a list of modem for testing the DSP connections
