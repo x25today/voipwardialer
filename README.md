@@ -31,7 +31,7 @@ Most of the project that went working on something like this gave up due to the 
 
 VoIP Wardialer need to first solve this nifty problem, reaching a working sofware modem (DSP) that you can use and provide you an I/O with a remote system terminal from within your application.
 
-# Archicture
+# Architecture
 VoIP Wardialer made up of two component:
 - The VoIP Wardialer
 - The Modem Server
