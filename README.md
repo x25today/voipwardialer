@@ -126,5 +126,3 @@ Below a list of modem for testing the DSP connections
 * US ATT Nationwide Pager +18007247784 (2400/7E1) from [TAP Dialup Numbers](http://www.pager-enterprise.com/TAP_dialup_numbers.pdf) 
 * NZ New Zealand Telecom Paging +64264001283 (7E1) from  [TAP Numbers](https://www.seqent.com/wp-content/uploads/2014/12/TAP_numbers-1.pdf)
 
-
-TODO: List 10-15 modem to call that works across various countries to make experiments
