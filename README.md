@@ -64,14 +64,18 @@ The software is not yet fully working and does requrire further work to achieve 
   * Range generation
   * Session resumption
   * Logging of carrier and output of those carriers
-  * Modem Detection trough Audio Sample Frequency Analysis (Use ready made [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb))
+
 * Multi channel parallel dialing
+
+* Modem Detection trough Audio Sample Frequency Analysis (Use ready made [WarVox Classifiers](https://github.com/rapid7/warvox/blob/master/config/classifiers/01.default.rb))
 
 * Modem Server Improvement
   * Modem Server Configuration Generation
   * Remote Modem Server (to run it on another machine)
 
 * Provide interactive terminal emulation connector (ptsy/tty for use with Minicom)
+
+* Provide a  working AT hayes modem emulator to be able to be used as a VoIP software modem by existing wardialing software
 
 # Resources
 Technical resources useful for the project research 
