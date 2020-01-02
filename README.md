@@ -119,9 +119,12 @@ We do support those parity configurations:
 # Example Modem to call around the world for testing
 Below a list of modem for testing the DSP connections
 
-* UK O2 CSD Data Number (PPP) +44-771-2927927
-* NL KPN (TUN\TAP) +31-653-141414
-* DE Blup BBS +49 209 38143 https://www.blup-bbs.de/mailbox
-* BE TAP SMSC for Proximus +32 475161621 (8N1) . (It could be used to send SMS with Linux's [smsclient](http://howto.gumph.org/content/send-sms-messages-from-linux/))
+* UK O2 CSD Data Number (PPP) +447712927927
+* NL KPN (TUN\TAP) +31653141414
+* DE Blup BBS +4920938143 https://www.blup-bbs.de/mailbox
+* BE TAP SMSC for Proximus +32475161621 (8N1) . (It could be used to send SMS with Linux's [smsclient](http://howto.gumph.org/content/send-sms-messages-from-linux/))
+* US ATT Nationwide Pager +18007247784 (2400/7E1) from [TAP Dialup Numbers](http://www.pager-enterprise.com/TAP_dialup_numbers.pdf) 
+* NZ New Zealand Telecom Paging +64264001283 (7E1) from  [TAP Numbers](https://www.seqent.com/wp-content/uploads/2014/12/TAP_numbers-1.pdf)
+
 
 TODO: List 10-15 modem to call that works across various countries to make experiments
