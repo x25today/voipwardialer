@@ -104,4 +104,8 @@ We do support those parity configurations:
 
 
 # Example Modem to call around the world for testing
+Below a list of modem for testing the DSP connections
+
+* UK O2 CSD Data Number (PPP) +44-771-2927927
+
 TODO: List 10-15 modem to call that works across various countries to make experiments
