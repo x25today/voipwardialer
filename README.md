@@ -111,9 +111,10 @@ We do support those parity configurations:
 * [ToneLoc](https://github.com/steeve/ToneLoc) MS-DOS Analog Modem Wardialer 
 * [WarVox](https://github.com/rapid7/warvox) Linux IAX VoIP Wardialer with Frequency Detection but not Modem DSP (no Terminal)
 * [Raptor's ward.c](https://0xdeadbeef.info/code/ward.c) Simple single file analog wardialer for Unix
+
+* [WarVox 1.0 Presentation](https://dl.packetstormsecurity.net/papers/general/warvox-1.0.0.pdf)
 * [2017 Defcon Talk AAPL – Automated Analog Telephone Logging](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-da_beave-jfalcon-aapl-telephone_logging.pdf) with consideration on iWar/WarVox status and evolution
 * [2009 Defcon Talk Metasploit Framework Telephony](https://www.blackhat.com/presentations/bh-usa-09/TRAMMELL/BHUSA09-TrammellDruid-MetasploitTele-PAPER.pdf) as an Analog Wardialer for use with Metasploit
-
 
 
 # Example Modem to call around the world for testing
