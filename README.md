@@ -110,12 +110,13 @@ We do support those parity configurations:
 ## Other Wardialing Software
 * [iWar](https://github.com/beave/iwar) Linux Terminal Analog Modem Wardialer 
 * [ToneLoc](https://github.com/steeve/ToneLoc) MS-DOS Analog Modem Wardialer 
-* [WarVox](https://github.com/rapid7/warvox) Linux IAX VoIP Wardialer with Frequency Detection but not Modem DSP (no Terminal)
+* [WarVox](https://github.com/rapid7/warvox) Linux IAX VoIP Wardialer with freq Detection but not Modem DSP (no Terminal)
 * [Raptor's ward.c](https://0xdeadbeef.info/code/ward.c) Simple single file analog wardialer for Unix
-
 * [WarVox 1.0 Presentation](https://dl.packetstormsecurity.net/papers/general/warvox-1.0.0.pdf)
-* [2017 Defcon Talk AAPL – Automated Analog Telephone Logging](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-da_beave-jfalcon-aapl-telephone_logging.pdf) with consideration on iWar/WarVox status and evolution
+* [2017 Defcon Talk AAPL – Automated Analog Telephone Logging](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-da_beave-jfalcon-aapl-telephone_logging.pdf) on iWar/WarVox status and evolution
 * [2009 Defcon Talk Metasploit Framework Telephony](https://www.blackhat.com/presentations/bh-usa-09/TRAMMELL/BHUSA09-TrammellDruid-MetasploitTele-PAPER.pdf) as an Analog Wardialer for use with Metasploit
+* [THC Scan NG](https://github.com/vanhauser-thc/THC-Archive/blob/master/Tools/tsng-1.1.tar.gz) old school Linux modem wardialer with many high performance features
+* [Python Advanced Wardialer](https://www.darknet.org.uk/2008/07/pawpaws-python-advanced-wardialing-system/) for ISDN scanning 
 
 
 # Example Modem to call around the world for testing
