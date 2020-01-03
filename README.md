@@ -86,7 +86,8 @@ Most of the complexity in this project is overcoming the problem of having any t
 Below several software modem resources
 * [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem) fork that we use, with parity bit improvements
 * [Asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem) Original Asterisk Softmodem
-* [Asterisk Btx Modem](https://github.com/Casandro/btx_modem) Another Asterisk softmodem with v.23 carrier
+* [Asterisk Btx Modem](https://github.com/Casandro/btx_modem) Another Asterisk softmodem with v.23 carrier (No good: "it
+only does V.23 without negotiation")
 * [Fisher Modem](https://github.com/randyrossi/fisher-modem) a potentially very cool software modem (that nobody used)
 * [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
