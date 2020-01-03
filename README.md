@@ -90,6 +90,7 @@ Below several software modem resources
 * [Fisher Modem](https://github.com/randyrossi/fisher-modem) a potentially very cool software modem (that nobody used)
 * [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
+* [Osmocom Linmodem](http://osmocom.org/projects/linmodem/issues) cool project to hook AT hayes / RTP Procesing / PTY Terminal to Linmodem
 
 A nice writeup by Asterisk-Softmodem fork author  [Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
 
