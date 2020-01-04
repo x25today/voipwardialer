@@ -92,6 +92,7 @@ only does V.23 without negotiation")
 * [Linux Softmodem](https://bellard.org/linmodem/) Original Linmodem source code for integraton with linux softmodem
 * [Liquid-DSP](https://github.com/jgaeddert/liquid-dsp/issues/119) improvement ideals
 * [Osmocom Linmodem](http://osmocom.org/projects/linmodem/issues) cool project to hook AT hayes / RTP Procesing / PTY Terminal to Linmodem
+* [IAXModem](https://sourceforge.net/p/iaxmodem/mailman/message/26647790/) and idea to use it for modem carrier (not only fax)
 
 A nice writeup by Asterisk-Softmodem fork author  [Modem Emulation - an RC2018/09 prologue](https://blog.irrelevant.com/2018/09/modem-emulation-rc201809-prologue.html) 
 
