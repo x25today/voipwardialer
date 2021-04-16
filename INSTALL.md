@@ -1,15 +1,14 @@
-### voipwardialer ###
+### voipwardialer
 
 ##### What's inside:
 
 - asterisk-conf : Asterisk 13.28.0 configuration files
 - scripts : Netcat basic socket listener for testing
-- dialer : Wardialer Python code  
-
+- dialer : Wardialer Python code
 
 ##### How to build it on Linux:
 
-*Requirements (Tested with):*
+_Requirements (Tested with):_
 
 - Python >= 3.6
 - PJProject 2.9 (https://www.pjsip.org/download.htm)
@@ -17,12 +16,12 @@
 - Asterisk 13.28 (https://downloads.asterisk.org/pub/telephony/asterisk/old-releases/asterisk-13.28.0.tar.gz)
 - asterisk-Softmodem fork by irrelevantdotcom with added parity bits (https://github.com/irrelevantdotcom/asterisk-Softmodem)
 
-*Build:*
+_Build:_
 
 - Create a Python 3.6 Virtual Environment (virtualenv -p python3.6 venv)
 - Activate the virtual environment and install requirements.txt (pip install -r requirements.txt)
 - Download and install Asterisk 13.28 sources
-- Follow build instructions for the asterisk-Softmodem DSP (put app_softmodem.c in the Asterisk apps/ dir and do make apps). 
+- Follow build instructions for the asterisk-Softmodem DSP (put app_softmodem.c in the Asterisk apps/ dir and do make apps).
   More details in the asterisk-Softmodem README.
 - Build and install Asterisk
 - Download and install PJSip 2.9 Sources
@@ -33,12 +32,12 @@
   - cp -pr asterisk-conf /etc/asterisk
   - service asterisk restart
 
-
 ##### How to call a modem:
 
 Activate the virtual environment:
+
 ```bash
-$ . venv/bin/activate 
+$ . venv/bin/activate
 ```
 
 Run the test socket listener (bounded on localhost:8290 according Asterisk' extension.conf) to receive the remote modem data.
@@ -73,4 +72,3 @@ Available MODEM_PARITY:
 - 8n1
 
 Hit Ctrl+C to exit or wait the 60 seconds limit.
-

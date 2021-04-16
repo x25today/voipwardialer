@@ -28,41 +28,44 @@ class Range:
         try:
             return list(literal_eval(microrange))
         except Exception as e:
-            raise ValueError('Wrong syntax in range, check: %s' % microrange) from e
+            raise ValueError("Wrong syntax in range, check: %s" %
+                             microrange) from e
 
     def _parse_string(self, rangestr=None, groups=-1) -> List:
         numbers = []
         skip_next = 0
         _rstring = rangestr and rangestr or self._range_string
-        _string = ''
+        _string = ""
         append = True
         for i, p in enumerate(_rstring):
             if skip_next:
-                print('skipping %s' % p)
+                print("skipping %s" % p)
                 skip_next -= 1
             elif p.isdigit():
                 _string += p
-            elif p == '[':
+            elif p == "[":
                 append = False
-                end = _rstring.find(']', i)
+                end = _rstring.find("]", i)
                 skip_next = end - i
-                for x in self._get_numbers_in_microrange(_rstring[i:end+1]):
-                    _r = '{}{}{}'.format(_string, x, _rstring[end+1:])
-                    numbers.extend(self._parse_string(rangestr=_r, groups=groups))
-            elif p in 'AEO':
+                for x in self._get_numbers_in_microrange(_rstring[i:end + 1]):
+                    _r = "{}{}{}".format(_string, x, _rstring[end + 1:])
+                    numbers.extend(
+                        self._parse_string(rangestr=_r, groups=groups))
+            elif p in "AEO":
                 append = False
-                for x in {'A': range(0, 10), 'E': '13579', 'O': '2468'}[p]:
-                    _r = '{}{}{}'.format(_string, x, _rstring[i+1:])
-                    numbers.extend(self._parse_string(rangestr=_r, groups=groups))
+                for x in {"A": range(0, 10), "E": "13579", "O": "2468"}[p]:
+                    _r = "{}{}{}".format(_string, x, _rstring[i + 1:])
+                    numbers.extend(
+                        self._parse_string(rangestr=_r, groups=groups))
             else:
-                raise ValueError('Wrong syntax in range: %s' % rangestr)
+                raise ValueError("Wrong syntax in range: %s" % rangestr)
         append and numbers.append(_string)
         if append:
-            print('appending %s, source: %s' % (_string, _rstring))
+            print("appending %s, source: %s" % (_string, _rstring))
         return numbers
 
 
-if __name__ == '__main__':
-    r = Range('80010[1,2,3]AAAA')
+if __name__ == "__main__":
+    r = Range("80010[1,2,3]AAAA")
     for x in r.numbers:
         pass
