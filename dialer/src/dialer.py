@@ -1,6 +1,7 @@
 import hashlib
 import logging
 import random
+import sys
 import threading
 import time
 import typing
@@ -118,7 +119,7 @@ class Dialer:
         reg_reason = acc.info().reg_reason
         if reg_status != 200:
             print('Registration failed (%s) status= %s (%s)' % (registration_uri, reg_status, reg_reason))
-            exit(1)
+            sys.exit(1)
         print('Registration completed (%s) status= %s (%s)' % (registration_uri, reg_status, reg_reason))
         return acc
 
