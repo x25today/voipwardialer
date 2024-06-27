@@ -84,6 +84,7 @@ Technical resources useful for the project research
 Most of the complexity in this project is overcoming the problem of having any to integrate and use software modem DSP
 
 Below several software modem resources
+* A NEW (2021) Software Modem to be trield [D-Modem](https://github.com/AonCyberLabs/D-Modem)
 * [Asterisk-Softmodem](https://github.com/irrelevantdotcom/asterisk-Softmodem) fork that we use, with parity bit improvements
 * [Asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem) Original Asterisk Softmodem
 * [Asterisk Btx Modem](https://github.com/Casandro/btx_modem) Another Asterisk softmodem with v.23 carrier (No good: "it
